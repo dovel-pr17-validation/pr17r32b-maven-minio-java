@@ -60,8 +60,8 @@ subprojects {
         api 'com.google.guava:guava:33.7.2-jre'
         api 'com.squareup.okhttp3:okhttp:5.5.1'
         api 'com.fasterxml.jackson.core:jackson-annotations:2.21'
-        api 'com.fasterxml.jackson.core:jackson-core:2.21.8'
-        api 'com.fasterxml.jackson.core:jackson-databind:2.21.8'
+        api 'com.fasterxml.jackson.core:jackson-core:2.22.4'
+        api 'com.fasterxml.jackson.core:jackson-databind:2.22.4'
         api 'org.bouncycastle:bcprov-jdk18on:1.86'
         api 'org.apache.commons:commons-compress:1.28.0'
         api 'commons-codec:commons-codec:1.23.0'
@@ -279,7 +279,7 @@ project(':adminapi') {
 
     dependencies {
         api project(':api')
-        api 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.8'
+        api 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.22.4'
         testImplementation project(':api')
     }
 
